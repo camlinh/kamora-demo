@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;500;600;700&display=swap');
+
+body, h1, h2, h3, h4, h5, h6{
+  font-family: 'Dosis', sans-serif;
+}
+
+.table thead th, .table th{
+  font-family: 'Dosis', sans-serif;
+  font-weight: 600;
+  color: #000;
+}
+
+.form-group label:empty{
+  display: none;
+}
+
+.navigation .pagination{
+  justify-content: flex-end;
+  margin-bottom: 0;
+}
+
+.card-header-title{
+  text-transform: uppercase;
+  color: #000;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.card-header-with-button{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.dashboard-wrapper{
+  min-height: calc(100vh - 68px) !important;
+}
+
+.btn-groups{
+  margin-top: 2rem;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.form-control-file{
+  padding: 0.5rem;
+  border: 1px dashed #ccc;
+  box-shadow: none !important;
+  cursor: pointer;
+}
+
+.form-control-file.is-invalid{
+  border-color: #dc3545;
+}
+
+.form-control-file.is-invalid~.invalid-feedback{
+  display: block;
+}
+
+.form-group .preview{
+  margin-top: 15px;
+}
+
+.form-group .preview:empty{
+  display: none;
+}
+
+.form-group .preview img{
+  height: 150px;
+  width: auto;
+  max-width: 100%;
+  display: block;
+}
+
+.no-wrap{
+  white-space: nowrap;
+}
+
+.has-errors .form-control, .has-errors .input-file, .has-errors .select2-selection{
+  border-color: #dc3545 !important;
+}
+
+.has-errors .invalid-feedback{
+  display: block;
+}
+
+.badge.badge-status-1{
+  background-color: #2ec551;
+  color: #fff;
+}
+
+.badge.badge-status-2{
+  background-color: #ef172c;
+  color: #fff;
+}
+
+.navigation:empty{
+  display: none;
+}
+
+.form-search{
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  min-width: 350px;
+}
+.form-search input{
+  border-radius: 5px;
+}
+.form-search button{
+  margin-left: 30px;
+}
+
+
+.form-group label{
+  font-weight: 600;
+}
+
+.datepicker-container .picked{
+  background-color: #2ec551 !important;
+  color: #fff !important;
+}
+
+.book-item{
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  margin-bottom: 15px;
+}
+
+.list-book{
+  max-height: 400px;
+  overflow: auto;
+}
+
+.book-item .book-image{
+  flex: 0 0 15%;
+  max-width: 15%;
+  border-radius: 8px;
+  background-color: #e5e5e5;
+}
+
+.book-item .book-body{
+  flex: 0 0 85%;
+  max-width: 85%;
+  padding-left: 1rem;
+}
+
+.book-item .book-body h5{
+  font-size: 16px;
+  color: #000;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.book-item .book-body p{
+  font-size: 12px;
+  margin-bottom: 5px;
+  line-height: 1;
+}
+
+.reader{
+  display: inline-block;
+  margin-right: 10px;
+}
