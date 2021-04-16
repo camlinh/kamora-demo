@@ -29,7 +29,6 @@ class UserController extends BaseController
         }
 
         $users = $query->paginate(10)->withQueryString();
-        $request->flash();
         return view('admin.user.index', compact('users'));
     }
 

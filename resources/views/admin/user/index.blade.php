@@ -37,7 +37,7 @@
                 <div class="card">
                     <div class="card-header card-header-with-button">
                       <form action="" method="GET" class="form-search">
-                        <input class="form-control" name="term" placeholder="Type something..." value="{{old('term')}}"/>
+                        <input class="form-control" name="term" placeholder="Type something..." value="{{request()->query('term')}}"/>
                         <button class="btn btn-success btn-sm">
                           <span class="fas fa-search"></span>
                           <span class="pl-1">Search</span>

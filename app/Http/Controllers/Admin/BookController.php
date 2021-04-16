@@ -32,7 +32,6 @@ class BookController extends BaseController
       }
 
       $books = $query->paginate(10)->withQueryString();
-      $request->flash();
       return view('admin.book.index', compact('books'));
     }
     
